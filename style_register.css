@@ -1,0 +1,33 @@
+body {
+    background-image: url(images/register.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+body::after {
+    background-image: linear-gradient(to right, red, yellow);
+}
+
+
+.form-control {
+    width: 100%;
+    border: 0px;
+    background: transparent;
+    border-bottom: 2px solid #6a82fb;
+    color: #fff;
+}
+
+.login-form {
+    margin-top: 50px;
+    margin-left: 100px;
+    background: #1616167a;
+    padding: 100px;
+    border-radius: 50px;
+    color: white;
+}
+
+.btn-primary {
+    width: 50%;
+    left: 50%;
+    border-radius: 30px;
+}
